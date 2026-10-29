@@ -1,0 +1,14 @@
+[
+  {
+    "entity_id": "YE-UNI-0001",
+    "name_ar": "جامعة تجريبية",
+    "name_en": "Example University",
+    "category": "university",
+    "parent_entity_id": null,
+    "domain": "example-university.edu.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  }
+]

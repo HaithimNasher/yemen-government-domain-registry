@@ -1,0 +1,34 @@
+[
+  {
+    "suffix": ".ye",
+    "category": "national"
+  },
+  {
+    "suffix": ".gov.ye",
+    "category": "government"
+  },
+  {
+    "suffix": ".edu.ye",
+    "category": "education"
+  },
+  {
+    "suffix": ".com.ye",
+    "category": "commercial"
+  },
+  {
+    "suffix": ".org.ye",
+    "category": "organizations"
+  },
+  {
+    "suffix": ".net.ye",
+    "category": "network"
+  },
+  {
+    "suffix": ".sch.ye",
+    "category": "schools"
+  },
+  {
+    "suffix": ".med.ye",
+    "category": "medical"
+  }
+]
