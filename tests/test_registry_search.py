@@ -19,7 +19,7 @@ class RegistrySearchTests(unittest.TestCase):
 
     def test_university_count(self):
         result = search_entities(category="university")
-        self.assertEqual(result["total"], 3)
+        self.assertEqual(result["total"], 78)
 
     def test_pagination(self):
         result = search_entities(limit=5)

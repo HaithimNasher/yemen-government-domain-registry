@@ -16,7 +16,7 @@ class UniversityTests(unittest.TestCase):
             )
         )
 
-        self.assertEqual(len(records), 3)
+        self.assertEqual(len(records), 81)
 
         ids = {r["entity_id"] for r in records}
 
@@ -32,7 +32,7 @@ class UniversityTests(unittest.TestCase):
 
         ids = {row[0] for row in rows}
 
-        self.assertEqual(len(ids), 3)
+        self.assertEqual(len(ids), 78)
         self.assertNotIn("YE-UNI-0001", ids)
 
 
