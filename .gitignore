@@ -8,3 +8,5 @@ data/*.db
 
 # Generated data quality report
 data-quality-report.json
+
+domain-dns-report.json
