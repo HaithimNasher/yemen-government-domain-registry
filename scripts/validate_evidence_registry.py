@@ -27,6 +27,8 @@ def load_entity_ids():
         "ministries.json",
         "universities.json",
         "government_services.json",
+        "government_bodies.json",
+        "public_corporations.json",
     ]
 
     entity_ids = set()
@@ -50,6 +52,8 @@ def load_entity_domains():
         "ministries.json",
         "universities.json",
         "government_services.json",
+        "government_bodies.json",
+        "public_corporations.json",
     ]
 
     domains = {}
