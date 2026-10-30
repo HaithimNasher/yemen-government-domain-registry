@@ -12,6 +12,7 @@ FILES = [
     "universities.json",
     "companies.json",
     "organizations.json",
+    "government_services.json",
 ]
 
 records = []
@@ -117,7 +118,7 @@ for filename, item in records:
 
 report = {
     "project": "YNDR",
-    "audit_version": "0.5.0",
+    "audit_version": "0.6.0",
     "total_records": len(records),
     "errors": sum(
         i["severity"] == "error" for i in issues

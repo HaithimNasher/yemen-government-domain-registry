@@ -12,6 +12,7 @@ FILES = [
     "universities.json",
     "companies.json",
     "organizations.json",
+    "government_services.json",
 ]
 
 valid_ids = set()

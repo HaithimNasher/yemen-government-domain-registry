@@ -1,0 +1,86 @@
+[
+  {
+    "entity_id": "YE-INST-001",
+    "name_ar": "رئاسة الجمهورية اليمنية",
+    "name_en": "Presidency of the Republic of Yemen",
+    "category": "government_institution",
+    "parent_entity_id": null,
+    "domain": "president.gov.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-INST-002",
+    "name_ar": "رئاسة مجلس الوزراء اليمني",
+    "name_en": "Council of Ministers of Yemen",
+    "category": "government_institution",
+    "parent_entity_id": null,
+    "domain": "cabinet.gov.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-SVC-003",
+    "name_ar": "الحكومة الرقمية والخدمات الإلكترونية",
+    "name_en": "Yemen Digital Government",
+    "category": "digital_service",
+    "parent_entity_id": null,
+    "domain": "digital.gov.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-SVC-004",
+    "name_ar": "نظام الدخول الموحد اليمني",
+    "name_en": "Yemen Unified Login",
+    "category": "digital_service",
+    "parent_entity_id": null,
+    "domain": "login.gov.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-SVC-005",
+    "name_ar": "الهوية الرقمية الوطنية اليمنية",
+    "name_en": "Yemen National Digital Identity",
+    "category": "digital_service",
+    "parent_entity_id": null,
+    "domain": "id.gov.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-SVC-006",
+    "name_ar": "المدفوعات الحكومية الرقمية اليمنية",
+    "name_en": "Yemen Government Digital Payments",
+    "category": "digital_service",
+    "parent_entity_id": null,
+    "domain": "payment.gov.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-SVC-007",
+    "name_ar": "البوابة الحكومية الموحدة اليمنية",
+    "name_en": "Yemen Unified Government Portal",
+    "category": "digital_service",
+    "parent_entity_id": null,
+    "domain": "portal.gov.ye",
+    "domain_status": "proposed",
+    "ownership_verified": false,
+    "source_url": null,
+    "last_verified": null
+  }
+]
