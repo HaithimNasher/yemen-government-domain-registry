@@ -48,7 +48,7 @@ def build():
         for category in [
             "ministries", "governorates", "districts",
             "universities", "companies", "organizations", "government_services", "government_bodies",
-    "public_corporations"
+    "public_corporations", "banks_candidates"
         ]:
             path = DATA / f"{category}.json"
             if not path.exists():
