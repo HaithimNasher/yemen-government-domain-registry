@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "entity_id": "YE-MIN-001",
+    "name_ar": "وزارة الخارجية وشؤون المغتربين",
+    "name_en": "Ministry of Foreign Affairs and Expatriates",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-002",
+    "name_ar": "وزارة الداخلية",
+    "name_en": "Ministry of Interior",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-003",
+    "name_ar": "وزارة الدفاع",
+    "name_en": "Ministry of Defense",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-004",
+    "name_ar": "وزارة المالية",
+    "name_en": "Ministry of Finance",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-005",
+    "name_ar": "وزارة التربية والتعليم",
+    "name_en": "Ministry of Education",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-006",
+    "name_ar": "وزارة التعليم العالي والبحث العلمي",
+    "name_en": "Ministry of Higher Education and Scientific Research",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-007",
+    "name_ar": "وزارة الصحة العامة والسكان",
+    "name_en": "Ministry of Public Health and Population",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-008",
+    "name_ar": "وزارة الاتصالات وتقنية المعلومات",
+    "name_en": "Ministry of Telecommunications and Information Technology",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-009",
+    "name_ar": "وزارة العدل",
+    "name_en": "Ministry of Justice",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  },
+  {
+    "entity_id": "YE-MIN-010",
+    "name_ar": "وزارة النقل",
+    "name_en": "Ministry of Transport",
+    "category": "ministry",
+    "parent_entity_id": null,
+    "domain": null,
+    "domain_status": "unverified",
+    "ownership_verified": false,
+    "source_url": "https://pmo-ye.net/public/post/11134",
+    "last_verified": null
+  }
+]
