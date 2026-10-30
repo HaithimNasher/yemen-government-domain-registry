@@ -10,3 +10,8 @@ data/*.db
 data-quality-report.json
 
 domain-dns-report.json
+
+# Local backups and temporary reports
+*.py.bak
+*.json.bak
+domain-candidates-comparison.json

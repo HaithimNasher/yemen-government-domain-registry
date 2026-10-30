@@ -1,3 +1,11 @@
+import json
+from pathlib import Path
+
+expected_ministries = len(json.loads(
+    (Path(__file__).resolve().parent.parent / "data" / "ministries.json")
+    .read_text(encoding="utf-8")
+))
+
 import unittest
 
 from app.registry_search import search_entities
@@ -7,7 +15,7 @@ class RegistrySearchTests(unittest.TestCase):
 
     def test_ministry_count(self):
         result = search_entities(category="ministry")
-        self.assertEqual(result["total"], 10)
+        self.assertEqual(result["total"], expected_ministries)
 
     def test_university_count(self):
         result = search_entities(category="university")

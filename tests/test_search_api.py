@@ -1,4 +1,12 @@
 import json
+from pathlib import Path
+
+expected_ministries = len(json.loads(
+    (Path(__file__).resolve().parent.parent / "data" / "ministries.json")
+    .read_text(encoding="utf-8")
+))
+
+import json
 import threading
 import unittest
 from http.server import ThreadingHTTPServer
@@ -53,7 +61,7 @@ class SearchAPITests(unittest.TestCase):
             "/api/v1/search?category=ministry"
         )
         self.assertEqual(status, 200)
-        self.assertEqual(data["total"], 10)
+        self.assertEqual(data["total"], expected_ministries)
 
     def test_pagination(self):
         status, data = self.request(
