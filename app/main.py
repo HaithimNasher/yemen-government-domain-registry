@@ -33,7 +33,7 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/":
             return self.respond(200, {
                 "project": "Yemen National Domain Registry",
-                "version": "0.4.0",
+                "version": "0.5.0",
                 "disclaimer": "Independent, unofficial prototype",
                 "endpoints": [
                     "/health",
