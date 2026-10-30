@@ -89,6 +89,22 @@ def validate(records):
                 if parsed.scheme not in ("http", "https") or not parsed.netloc:
                     errors.append(f"Record {index}: invalid source_url")
 
+        if evidence_type == "domain_ownership":
+            required_fields = (
+                "domain",
+                "verification_method",
+                "evidence_reference",
+                "reviewed_by",
+            )
+
+            for field in required_fields:
+                value = record.get(field)
+                if not isinstance(value, str) or not value.strip():
+                    errors.append(
+                        f"Record {index}: domain ownership "
+                        f"missing {field}"
+                    )
+
         if (
             evidence_type == "domain_ownership"
             and status == "verified"

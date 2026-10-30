@@ -118,7 +118,57 @@ class DomainOwnershipPolicyTests(unittest.TestCase):
         )
 
     def test_ownership_can_remain_pending(self):
-        errors = validate([
-            self.ownership_record("pending")
-        ])
+        record = self.ownership_record("pending")
+        record.update({
+            "domain": "su.edu.ye",
+            "verification_method": "document_review",
+            "evidence_reference": "PENDING-REVIEW",
+            "reviewed_by": "PENDING"
+        })
+        errors = validate([record])
         self.assertEqual(errors, [])
+
+class DomainOwnershipSchemaTests(unittest.TestCase):
+
+    def base_record(self):
+        return {
+            "evidence_id": "EV-OWN-SCHEMA-001",
+            "entity_id": "YE-UNI-SANAA",
+            "evidence_type": "domain_ownership",
+            "source_url": "https://su.edu.ye/",
+            "verification_status": "pending",
+            "reviewed_at": None,
+            "review_notes": None,
+            "domain": "su.edu.ye",
+            "verification_method": "document_review",
+            "evidence_reference": "PENDING-REVIEW",
+            "reviewed_by": "PENDING"
+        }
+
+    def test_complete_ownership_metadata_accepted_as_pending(self):
+        self.assertEqual(validate([self.base_record()]), [])
+
+    def test_missing_ownership_fields_rejected(self):
+        for field in (
+            "domain",
+            "verification_method",
+            "evidence_reference",
+            "reviewed_by",
+        ):
+            with self.subTest(field=field):
+                record = self.base_record()
+                record.pop(field)
+                errors = validate([record])
+                self.assertTrue(
+                    any(field in error for error in errors)
+                )
+
+    def test_ownership_still_cannot_be_verified(self):
+        record = self.base_record()
+        record["verification_status"] = "verified"
+        record["reviewed_at"] = "2026-10-30"
+        record["review_notes"] = "Test metadata only"
+        errors = validate([record])
+        self.assertTrue(
+            any("independent verification" in e for e in errors)
+        )
