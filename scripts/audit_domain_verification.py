@@ -15,6 +15,8 @@ FILES = [
     "ministries.json",
     "universities.json",
     "government_services.json",
+    "government_bodies.json",
+    "public_corporations.json",
 ]
 
 def main():
