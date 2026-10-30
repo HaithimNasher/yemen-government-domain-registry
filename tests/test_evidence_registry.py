@@ -21,6 +21,23 @@ class EvidenceRegistryTests(unittest.TestCase):
         result = get_evidence("YE-UNKNOWN")
         self.assertEqual(result["total"], 0)
 
+    def test_evidence_has_review_status(self):
+        result = get_evidence()
+
+        for item in result["results"]:
+            self.assertIn(
+                item["review_status"],
+                {"pending", "reviewed", "rejected"}
+            )
+
+    def test_evidence_has_source_fields(self):
+        result = get_evidence()
+
+        for item in result["results"]:
+            self.assertIn("source_url", item)
+            self.assertIn("domain", item)
+            self.assertIn("verified_at", item)
+
     def test_no_verified_ownership(self):
         result = get_evidence()
         for item in result["results"]:
