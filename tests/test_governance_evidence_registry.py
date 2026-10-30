@@ -95,3 +95,30 @@ class EvidenceEntityReferenceTests(unittest.TestCase):
             "review_notes": None
         }
         self.assertEqual(validate([record]), [])
+
+class DomainOwnershipPolicyTests(unittest.TestCase):
+
+    def ownership_record(self, status):
+        return {
+            "evidence_id": "EV-OWN-001",
+            "entity_id": "YE-UNI-SANAA",
+            "evidence_type": "domain_ownership",
+            "source_url": "https://su.edu.ye/",
+            "verification_status": status,
+            "reviewed_at": "2026-10-30",
+            "review_notes": "Metadata-only test"
+        }
+
+    def test_ownership_cannot_be_self_verified(self):
+        errors = validate([
+            self.ownership_record("verified")
+        ])
+        self.assertTrue(
+            any("independent verification" in e for e in errors)
+        )
+
+    def test_ownership_can_remain_pending(self):
+        errors = validate([
+            self.ownership_record("pending")
+        ])
+        self.assertEqual(errors, [])
