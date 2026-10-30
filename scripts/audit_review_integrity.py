@@ -9,39 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def audit(reviews, evidence_ids):
-    errors = validate(reviews, evidence_ids)
+    from validate_review_transitions import validate_transitions
 
-    if not isinstance(reviews, list):
-        return errors
-
-    by_evidence = defaultdict(list)
-
-    for index, review in enumerate(reviews):
-        if not isinstance(review, dict):
-            continue
-
-        evidence_id = review.get("evidence_id")
-        if not isinstance(evidence_id, str) or not evidence_id.strip():
-            continue
-
-        by_evidence[evidence_id].append((index, review))
-
-    for evidence_id, entries in by_evidence.items():
-        decisions = {
-            record.get("decision")
-            for _, record in entries
-            if isinstance(record.get("decision"), str)
-        }
-
-        if (
-            "accepted_for_review" in decisions
-            and "rejected" in decisions
-        ):
-            errors.append(
-                f"Evidence {evidence_id}: conflicting review decisions"
-            )
-
-    return errors
+    return validate_transitions(reviews, evidence_ids)
 
 
 def main():
