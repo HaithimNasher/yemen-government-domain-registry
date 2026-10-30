@@ -1,0 +1,32 @@
+[
+  {
+    "entity_id": "YE-UNI-SANAA",
+    "evidence_type": "institution_website",
+    "source_url": "https://su.edu.ye",
+    "domain": "su.edu.ye",
+    "review_status": "pending",
+    "ownership_verified": false,
+    "verified_at": null,
+    "notes": "Institution-domain association requires authoritative verification."
+  },
+  {
+    "entity_id": "YE-UNI-ADEN",
+    "evidence_type": "domain_candidate",
+    "source_url": null,
+    "domain": "ad.edu.ye",
+    "review_status": "pending",
+    "ownership_verified": false,
+    "verified_at": null,
+    "notes": "DNS resolution previously failed; association and ownership remain unverified."
+  },
+  {
+    "entity_id": "YE-UNI-UST",
+    "evidence_type": "institution_website",
+    "source_url": "https://ust.edu.ye",
+    "domain": "ust.edu.ye",
+    "review_status": "pending",
+    "ownership_verified": false,
+    "verified_at": null,
+    "notes": "Institution-domain association requires authoritative verification."
+  }
+]
