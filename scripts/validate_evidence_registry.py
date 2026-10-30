@@ -43,6 +43,31 @@ def load_entity_ids():
     return entity_ids
 
 
+def load_entity_domains():
+    files = [
+        "governorates.json",
+        "districts.json",
+        "ministries.json",
+        "universities.json",
+        "government_services.json",
+    ]
+
+    domains = {}
+
+    for filename in files:
+        source = ROOT / "data" / filename
+        records = json.loads(source.read_text(encoding="utf-8"))
+
+        for record in records:
+            entity_id = record.get("entity_id")
+            domain = record.get("domain")
+
+            if entity_id and domain:
+                domains[entity_id] = domain.lower().rstrip(".")
+
+    return domains
+
+
 def validate(records):
     errors = []
     ids = set()
@@ -51,6 +76,7 @@ def validate(records):
         return ["Evidence registry must be a list"]
 
     valid_entity_ids = load_entity_ids()
+    entity_domains = load_entity_domains()
 
     for index, record in enumerate(records):
         if not isinstance(record, dict):
@@ -90,6 +116,22 @@ def validate(records):
                     errors.append(f"Record {index}: invalid source_url")
 
         if evidence_type == "domain_ownership":
+            claimed_domain = record.get("domain")
+            expected_domain = entity_domains.get(entity_id)
+
+            if isinstance(claimed_domain, str) and claimed_domain.strip():
+                normalized = claimed_domain.strip().lower().rstrip(".")
+
+                if expected_domain is None:
+                    errors.append(
+                        f"Record {index}: entity has no registered domain"
+                    )
+                elif normalized != expected_domain:
+                    errors.append(
+                        f"Record {index}: domain does not match entity"
+                    )
+
+
             required_fields = (
                 "domain",
                 "verification_method",

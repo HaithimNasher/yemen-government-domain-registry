@@ -172,3 +172,36 @@ class DomainOwnershipSchemaTests(unittest.TestCase):
         self.assertTrue(
             any("independent verification" in e for e in errors)
         )
+
+class DomainEntityMatchTests(unittest.TestCase):
+
+    def base_record(self):
+        return {
+            "evidence_id": "EV-MATCH-001",
+            "entity_id": "YE-UNI-SANAA",
+            "evidence_type": "domain_ownership",
+            "source_url": "https://su.edu.ye/",
+            "verification_status": "pending",
+            "reviewed_at": None,
+            "review_notes": None,
+            "domain": "su.edu.ye",
+            "verification_method": "document_review",
+            "evidence_reference": "PENDING-REVIEW",
+            "reviewed_by": "PENDING"
+        }
+
+    def test_matching_domain_accepted(self):
+        self.assertEqual(validate([self.base_record()]), [])
+
+    def test_mismatching_domain_rejected(self):
+        record = self.base_record()
+        record["domain"] = "wrong.example"
+        errors = validate([record])
+        self.assertTrue(
+            any("domain does not match entity" in e for e in errors)
+        )
+
+    def test_domain_case_normalization(self):
+        record = self.base_record()
+        record["domain"] = "SU.EDU.YE."
+        self.assertEqual(validate([record]), [])
