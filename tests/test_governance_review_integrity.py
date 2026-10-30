@@ -29,7 +29,9 @@ class ReviewIntegrityTests(unittest.TestCase):
             self.review("REV-002", "rejected"),
         ]
         errors = audit(reviews, {"EV-001"})
-        self.assertEqual(errors, [])
+        self.assertTrue(
+            any("ambiguous same-day" in e for e in errors)
+        )
 
     def test_same_decision_multiple_reviews_allowed(self):
         reviews = [

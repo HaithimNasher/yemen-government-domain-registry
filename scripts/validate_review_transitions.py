@@ -59,6 +59,13 @@ def validate_transitions(reviews, evidence_ids):
         entries.sort(key=lambda item: (item[0], item[1]))
 
         for previous, current in zip(entries, entries[1:]):
+            if previous[0] == current[0] and previous[2] != current[2]:
+                errors.append(
+                    f"Evidence {evidence_id}: ambiguous same-day "
+                    "review decisions"
+                )
+                continue
+
             old_decision = previous[2]
             new_decision = current[2]
 
