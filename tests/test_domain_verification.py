@@ -29,6 +29,21 @@ class DomainVerificationTests(unittest.TestCase):
                         bool
                     )
 
+    def test_observed_domains_not_automatically_verified(self):
+        for filename in FILES:
+            path = ROOT / "data" / filename
+            records = json.loads(
+                path.read_text(encoding="utf-8")
+            )
+
+            for record in records:
+                if record.get("domain_status") == "observed":
+                    self.assertIs(
+                        record.get("ownership_verified"),
+                        False,
+                        msg=record["entity_id"]
+                    )
+
     def test_proposed_domains_not_verified(self):
         for filename in FILES:
             path = ROOT / "data" / filename
