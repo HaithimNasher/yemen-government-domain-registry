@@ -13,6 +13,7 @@ ALLOWED_CATEGORIES = {
     "university",
     "company",
     "organization",
+    "bank",
 }
 
 
