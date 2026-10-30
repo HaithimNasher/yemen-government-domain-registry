@@ -38,7 +38,10 @@ class SearchAPITests(unittest.TestCase):
             with urlopen(url, timeout=5) as response:
                 return response.status, json.load(response)
         except HTTPError as exc:
-            return exc.code, json.load(exc)
+            try:
+                return exc.code, json.load(exc)
+            finally:
+                exc.close()
 
     def test_health(self):
         status, data = self.request("/health")
