@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
 from app.registry_search import search_entities
+from app.evidence_registry import get_evidence
 
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "data" / "registry.db"
@@ -27,7 +28,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
         path = parsed.path
-        args = parse_qs(parsed.query)
+        args = parse_qs(parsed.query, keep_blank_values=True)
 
         if path == "/":
             return self.respond(200, {
@@ -39,7 +40,8 @@ class Handler(BaseHTTPRequestHandler):
                     "/api/v1/entities",
                     "/api/v1/domains",
                     "/api/v1/stats",
-                    "/api/v1/search"
+                    "/api/v1/search",
+                    "/api/v1/evidence"
                 ]
             })
 
@@ -95,6 +97,48 @@ class Handler(BaseHTTPRequestHandler):
                 )
 
                 return self.respond(200, result)
+
+            except ValueError as exc:
+                return self.respond(400, {
+                    "error": str(exc)
+                })
+
+        if path == "/api/v1/evidence":
+            try:
+                allowed = {"entity_id"}
+                unknown = set(args) - allowed
+
+                if unknown:
+                    raise ValueError(
+                        "Unsupported parameter: " +
+                        sorted(unknown)[0]
+                    )
+
+                values = args.get("entity_id", [])
+
+                if len(values) > 1:
+                    raise ValueError(
+                        "Repeated parameter: entity_id"
+                    )
+
+                if "entity_id" in args and not values:
+                    raise ValueError(
+                        "Empty parameter: entity_id"
+                    )
+
+                entity_id = values[0] if values else None
+
+                if entity_id is not None:
+                    entity_id = entity_id.strip()
+                    if not entity_id:
+                        raise ValueError(
+                            "Empty parameter: entity_id"
+                        )
+
+                return self.respond(
+                    200,
+                    get_evidence(entity_id)
+                )
 
             except ValueError as exc:
                 return self.respond(400, {
