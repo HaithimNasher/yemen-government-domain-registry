@@ -5,6 +5,8 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
+from app.registry_search import search_entities
+
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "data" / "registry.db"
 
@@ -30,13 +32,14 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/":
             return self.respond(200, {
                 "project": "Yemen National Domain Registry",
-                "version": "0.2.0",
+                "version": "0.4.0",
                 "disclaimer": "Independent, unofficial prototype",
                 "endpoints": [
                     "/health",
                     "/api/v1/entities",
                     "/api/v1/domains",
-                    "/api/v1/stats"
+                    "/api/v1/stats",
+                    "/api/v1/search"
                 ]
             })
 
@@ -69,6 +72,34 @@ class Handler(BaseHTTPRequestHandler):
 
             sql += " ORDER BY category, name_en LIMIT 1000"
             return self.respond(200, query(sql, params))
+
+
+        if path == "/api/v1/search":
+            try:
+                def single(name, default=None):
+                    values = args.get(name, [])
+                    if len(values) > 1:
+                        raise ValueError(
+                            f"Repeated parameter: {name}"
+                        )
+                    return values[0] if values else default
+
+                limit = int(single("limit", "20"))
+                offset = int(single("offset", "0"))
+
+                result = search_entities(
+                    query=single("q"),
+                    category=single("category"),
+                    limit=limit,
+                    offset=offset,
+                )
+
+                return self.respond(200, result)
+
+            except ValueError as exc:
+                return self.respond(400, {
+                    "error": str(exc)
+                })
 
         if path == "/api/v1/stats":
             rows = query("""
