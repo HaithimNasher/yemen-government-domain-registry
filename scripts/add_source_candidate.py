@@ -2,6 +2,7 @@
 """Add a candidate source without verifying it."""
 
 import argparse
+import fcntl
 import ipaddress
 import json
 import os
@@ -153,5 +154,17 @@ def main():
     print("Ownership verified: NO")
 
 
+def locked_main():
+    """Serialize candidate registration across processes."""
+    lock_path = QUEUE.with_name(QUEUE.name + ".lock")
+
+    with open(lock_path, "a+b") as lock:
+        fcntl.flock(lock.fileno(), fcntl.LOCK_EX)
+        try:
+            return main()
+        finally:
+            fcntl.flock(lock.fileno(), fcntl.LOCK_UN)
+
+
 if __name__ == "__main__":
-    main()
+    locked_main()
