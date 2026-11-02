@@ -1,3 +1,4 @@
+from contextlib import closing
 import json
 import sqlite3
 import unittest
@@ -58,7 +59,7 @@ class DistrictRegistryTests(unittest.TestCase):
             )
 
     def test_database(self):
-        with sqlite3.connect(DATA / "registry.db") as db:
+        with closing(sqlite3.connect(DATA / "registry.db")) as db:
             count = db.execute("""
                 SELECT COUNT(*)
                 FROM entities

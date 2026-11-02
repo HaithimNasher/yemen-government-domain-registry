@@ -1,3 +1,4 @@
+from contextlib import closing
 import sqlite3
 import unittest
 from pathlib import Path
@@ -10,7 +11,7 @@ class RegistryTests(unittest.TestCase):
         self.assertTrue(DB.exists())
 
     def test_governorates_count(self):
-        with sqlite3.connect(DB) as db:
+        with closing(sqlite3.connect(DB)) as db:
             total = db.execute("""
                 SELECT COUNT(*) FROM entities
                 WHERE category = 'governorate'
@@ -18,7 +19,7 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual(total, 22)
 
     def test_no_verified_proposals(self):
-        with sqlite3.connect(DB) as db:
+        with closing(sqlite3.connect(DB)) as db:
             total = db.execute("""
                 SELECT COUNT(*) FROM entities
                 WHERE domain_status = 'proposed'

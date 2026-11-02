@@ -21,19 +21,14 @@ ALLOWED_STATUSES = {
 }
 
 def load_entity_ids():
-    files = [
-        "governorates.json",
-        "districts.json",
-        "ministries.json",
-        "universities.json",
-        "government_services.json",
-        "government_bodies.json",
-        "public_corporations.json",
-    ]
+    if __package__:
+        from .audit_sources import FILES
+    else:
+        from audit_sources import FILES
 
     entity_ids = set()
 
-    for filename in files:
+    for filename in FILES:
         source = ROOT / "data" / filename
         records = json.loads(source.read_text(encoding="utf-8"))
 
@@ -46,19 +41,14 @@ def load_entity_ids():
 
 
 def load_entity_domains():
-    files = [
-        "governorates.json",
-        "districts.json",
-        "ministries.json",
-        "universities.json",
-        "government_services.json",
-        "government_bodies.json",
-        "public_corporations.json",
-    ]
+    if __package__:
+        from .audit_sources import FILES
+    else:
+        from audit_sources import FILES
 
     domains = {}
 
-    for filename in files:
+    for filename in FILES:
         source = ROOT / "data" / filename
         records = json.loads(source.read_text(encoding="utf-8"))
 

@@ -1,3 +1,4 @@
+from contextlib import closing
 import json
 import sqlite3
 import unittest
@@ -23,7 +24,7 @@ class UniversityTests(unittest.TestCase):
         self.assertNotIn("YE-UNI-0001", ids)
 
     def test_database_universities(self):
-        with sqlite3.connect(DATA / "registry.db") as db:
+        with closing(sqlite3.connect(DATA / "registry.db")) as db:
             rows = db.execute("""
                 SELECT entity_id
                 FROM entities
