@@ -20,13 +20,17 @@ class EvidenceRegistryCoverageTests(unittest.TestCase):
         entity_ids = (
             validate_evidence_registry.load_entity_ids()
         )
-        self.assertEqual(len(entity_ids), 524)
+        self.assertEqual(len(entity_ids), 557)
+        self.assertIn("YE-BNK-001", entity_ids)
+        self.assertIn("YE-BNK-033", entity_ids)
 
     def test_all_entity_domains_are_known(self):
         domains = (
             validate_evidence_registry.load_entity_domains()
         )
-        self.assertEqual(len(domains), 521)
+        self.assertEqual(len(domains), 554)
+        self.assertIn("YE-BNK-001", domains)
+        self.assertIn("YE-BNK-033", domains)
 
     def test_public_corporations_are_known(self):
         ids = validate_evidence_registry.load_entity_ids()
