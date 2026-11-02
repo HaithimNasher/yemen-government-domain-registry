@@ -385,5 +385,1499 @@
     "source_type": null,
     "verified_at": null,
     "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-TAIZ",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-HADRAMOUT",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-IBB",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-DHAMAR",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-HODEIDAH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALBAYDA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-AMRAN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-HAJJAH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-SAADA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-21SEPTEMBER",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-SABA-REGION",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-SEIYUN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-SHABWAH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ABYAN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-LAHJ",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALMAHRAH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ARAB-ACADEMY-FINANCE",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALRAYAN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-IBN-KHALDUN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-22MAY-MEDICAL-COLLEGE",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-IMAM-SHAFII",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALAHGAFF",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALHIKMA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALADEL",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALARAB",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-NATIONAL",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-QURAN-ISLAMIC",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALEMAN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-WASATIYA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-RADFAN-QURAN-COLLEGE",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALATAA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALJUND",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ADEN-GULF",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALREYADA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-LEBANESE-INTERNATIONAL-YEMEN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-INTERNATIONAL-ISLAMIC",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALSAEED",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALROWAD",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALAWAEL",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ARCHIPELAGO",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-MODERN-SCIENCE-TECH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ADEN-GERMAN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ARABIAN-GULF",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-TARIM-ISLAMIC",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-MODERN-SCIENCES",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-AHL-HADITH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-YEMENI",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-DAR-ALSALAM",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-FUTURE-UNIVERSITY-YEMEN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALRAZI",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALNASSER",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-EMIRATI-INTERNATIONAL",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-AZAL-HUMAN-DEVELOPMENT",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-TOTENK",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-QUEEN-ARWA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-YEMEN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-YEMENI-JORDANIAN",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-SABA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALSAEEDA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALQALAM",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-GENIUS",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALANDALUS",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALITTIHAD",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ELITE-INTERNATIONAL",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-IQRA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-YEMEN-GULF",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-CIVILIZATION",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ARAB-ACADEMICIANS",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALWAHDA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-IBN-ALNAFIS",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-MALAYSIAN-INTERNATIONAL-IBB",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALRASHEED-SMART",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ALJAZEERA",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-KNOWLEDGE-MODERN-SCIENCES",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-JIBLA-MEDICAL",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-AZAL-SCIENCE-TECH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-ARAB-SCIENCE-TECH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-UNI-DAR-ALULOOM-HODEIDAH",
+    "source_file": "universities.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0001",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0002",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0003",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0004",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0005",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0006",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0007",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0008",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0009",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0010",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0011",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0012",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0013",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0014",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0015",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0016",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0017",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0018",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0019",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0020",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0021",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0022",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0023",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0024",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0025",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0026",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0027",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0028",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0029",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0030",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0031",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0032",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0033",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0034",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0035",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0036",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0037",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0038",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-GOV-0039",
+    "source_file": "government_bodies.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0012",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0013",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0014",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0015",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0016",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0017",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0019",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0020",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0021",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0022",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0023",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0024",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0025",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0026",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0027",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-CORP-0028",
+    "source_file": "public_corporations.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-001",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-002",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-003",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-004",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-005",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-006",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-007",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-008",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-009",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-010",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-011",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-012",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-013",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-014",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-015",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-016",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-017",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-018",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-019",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-020",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-021",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-022",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-023",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-024",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-025",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-026",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-027",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-028",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-029",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-030",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-031",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-032",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
+  },
+  {
+    "entity_id": "YE-BNK-033",
+    "source_file": "banks_candidates.json",
+    "verification_status": "unverified",
+    "source_url": null,
+    "source_type": null,
+    "verified_at": null,
+    "review_notes": "Source evidence required"
   }
 ]

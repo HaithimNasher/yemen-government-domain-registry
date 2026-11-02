@@ -6,13 +6,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
-FILES = [
-    "governorates.json",
-    "districts.json",
-    "ministries.json",
-    "universities.json",
-    "government_services.json",
-]
+from scripts.audit_sources import FILES
 
 
 class SourceReviewIntegrityTests(unittest.TestCase):
