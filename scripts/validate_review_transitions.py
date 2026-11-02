@@ -4,7 +4,10 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
-from validate_evidence_reviews import validate
+if __package__:
+    from .validate_evidence_reviews import validate
+else:
+    from validate_evidence_reviews import validate
 
 ROOT = Path(__file__).resolve().parents[1]
 
